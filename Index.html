@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buscador de Series</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <h1>Buscador de Series</h1>
+  </header>
+  <main class="main">
+    <section id="search" class="search-section">
+      <h2>Encuentra tu serie favorita</h2>
+      <form id="searchForm" class="search-form">
+        <input type="text" id="query" placeholder="Buscar series..." required>
+        <button type="submit" class="btn">Buscar</button>
+      </form>
+    </section>
+    <section id="results" class="results-section">
+    </section>
+  </main>
+  <footer class="footer">
+    <p>&copy; 2024 Buscador de Series</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

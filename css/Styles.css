@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.header {
+  background: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.main {
+  padding: 2rem;
+}
+
+.search-section {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+.search-section .search-form {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.search-section .search-form input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  width: 300px;
+  border: 1px solid #4caf50;
+  border-radius: 5px;
+}
+.search-section .search-form .btn {
+  padding: 0.5rem 1rem;
+  background: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.search-section .search-form .btn:hover {
+  background: rgb(60.5577689243, 139.4422310757, 63.7450199203);
+}
+
+.results-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+.results-section div {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  border-radius: 5px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.results-section div img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+.results-section div h3 {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+.results-section div p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.footer {
+  text-align: center;
+  background: #4caf50;
+  color: white;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+/*# sourceMappingURL=styles.css.map */
